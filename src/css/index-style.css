@@ -1,0 +1,13 @@
+.container {
+    background-color: #000000;
+    background-image: url("https://gf3.geo.gfsrv.net/cdn23/ca893842dbb8af70a3027df1d8230a.jpg");
+    border-width: 1px;
+    border-style: solid;
+    border-color: brown;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
