@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <!--Link para usar FontAwesome-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="https://kit.fontawesome.com/a5bb5aff2d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/index-style.css">
 </head>
 <body>
-    <div class="container">
+    <section id="land-view" class="mobile-shown">
+        <div id="menu">
+            <a href="#" onclick="showOrHideMenu()">
+                <span id="bars" class="fas fa-bars fa-2x"></span>
+            </a>
+            <div id="myLinks">
+                <a href="#">Home</a>
+                <hr>
+                <a href="#">Characters</a>
+                <hr>
+                <a href="#">About</a>
+                <hr>
+              </div>
+            
+        </div>
+        <div class="logo-position">
+            <h1 id="logo">Metin2</h1>
+        </div>
 
+        <div class="register">
+            <button id="register-btn" class="btn_default mainButton">
+                <span>registrarse</span>
+            </button>
+        </div>
 
+        <div class="trailer">
+            
+        </div>
 
-    </div>
+        
+    </section>
+
+    
 </body>
 </html>

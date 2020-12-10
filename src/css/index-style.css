@@ -1,13 +1,80 @@
-.container {
-    background-color: #000000;
-    background-image: url("https://gf3.geo.gfsrv.net/cdn23/ca893842dbb8af70a3027df1d8230a.jpg");
-    border-width: 1px;
-    border-style: solid;
-    border-color: brown;
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding: 0;
+body {
+    background-color: rgb(0, 0, 0);
+    background-position-x: center;
+    background-position-y: 0px;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-image: url("//gf1.geo.gfsrv.net/cdn63/4047bed964dcc231086f3e5fa0f417.jpg");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+section {
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-top: 177.86666666666667%;
     position: relative;
+}
+
+#land-view {
+    width: 100%;
+    padding: 0%;
+    position: relative;
+}
+
+#menu a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+
+.logo-position {
+    margin-top: 10%;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 80%;
+}
+
+#logo {
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("//gf2.geo.gfsrv.net/cdn7b/09be67632418c7e234a9d7873d067c.png");
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: contain;
+    padding-top: 25%;
+    text-indent: -9999px;
+    width: 100%;
+}
+
+.register {
+    display: flex;
+}
+
+
+.btn_default {
+    font-size: 20px;
+    background-color: #ab003c;
+    background-size: 800%;
+    border: 0;
+    cursor: pointer;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
 }
